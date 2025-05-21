@@ -1,0 +1,10 @@
+[project]
+name = "meanderings"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "pyqt6>=6.9.0",
+    "python-qt5>=0.1.10",
+    "wxpython>=4.2.3",
+]
