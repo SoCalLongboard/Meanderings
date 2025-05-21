@@ -1,13 +1,23 @@
-# wxPython Color Buttons Application
+# Color Buttons Application
 
-A simple wxPython application that displays a window with four buttons in a 2x2 grid layout. The buttons are labeled "red", "green", "blue", and "quit". Clicking on a color button changes the background color of the window to that color, and clicking the "quit" button closes the application. The application logs all button clicks to stdout, providing information about user interactions.
+This project provides two implementations of the same application - one using wxPython and another using PyQt6. Both implementations display a window with four buttons in a 2x2 grid layout. The buttons are labeled "red", "green", "blue", and "quit". Clicking on a color button changes the background color of the window to that color, and clicking the "quit" button closes the application. Both applications log all button clicks to stdout, providing information about user interactions.
 
-## Running the Application
+## Running the Applications
 
-To run the application, execute:
+### wxPython Version
+
+To run the wxPython version, execute:
 
 ```bash
 python wxpython_color_buttons.py
+```
+
+### PyQt6 Version
+
+To run the PyQt6 version, execute:
+
+```bash
+python pyqt6_color_buttons.py
 ```
 
 ## Testing
@@ -25,10 +35,20 @@ The tests cover the following functionality:
 
 ### Running the Tests
 
-To run the tests, execute:
+#### wxPython Tests
+
+To run the wxPython tests, execute:
 
 ```bash
 python test_wxpython_color_buttons.py
+```
+
+#### PyQt6 Tests
+
+To run the PyQt6 tests, execute:
+
+```bash
+python test_pyqt6_color_buttons.py
 ```
 
 ### Testing Approach
@@ -62,4 +82,5 @@ The logs appear in the console from which the application was launched.
 ## Requirements
 
 - Python 3.x
-- wxPython
+- wxPython (for the wxPython implementation)
+- PyQt6 (for the PyQt6 implementation)
