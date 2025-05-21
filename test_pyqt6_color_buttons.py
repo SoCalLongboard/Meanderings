@@ -4,6 +4,9 @@ from PyQt6.QtWidgets import QApplication
 from PyQt6.QtGui import QColor
 from pyqt6_color_buttons import ColorFrame
 
+
+# OopCompanion:suppressRename
+
 class TestColorFrame(unittest.TestCase):
     """Test cases for the ColorFrame class"""
     

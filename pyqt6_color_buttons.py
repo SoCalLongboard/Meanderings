@@ -3,6 +3,9 @@ from PyQt6.QtWidgets import QApplication, QWidget, QPushButton, QGridLayout
 from PyQt6.QtGui import QColor
 
 
+# OopCompanion:suppressRename
+
+
 class ColorFrame(QWidget):
     def __init__(self):
         super().__init__()

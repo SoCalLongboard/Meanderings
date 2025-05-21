@@ -3,6 +3,9 @@ import wx
 import time
 from wxpython_color_buttons import ColorFrame
 
+
+# OopCompanion:suppressRename
+
 class TestColorFrame(unittest.TestCase):
     """Test cases for the ColorFrame class"""
     
